@@ -24,11 +24,10 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 2. Install Dependencies
 
-Create requirements.txt and install dependencies:
 
-# Install dependencies
+### 2 Install dependencies
+```
 pip install -r requirements.txt
 ```
 
