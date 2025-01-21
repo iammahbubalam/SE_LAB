@@ -45,3 +45,4 @@ model/classification/food_classifier_model.pkl
 model/classification/label_encoders.pkl
 model/classification/scaler.pkl
 model/classification/model_info.pkl
+model.zip
