@@ -1,14 +1,10 @@
 import os
 from datetime import date
 import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier 
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import classification_report, confusion_matrix
-import seaborn as sns
-import matplotlib.pyplot as plt
-from xgboost import XGBClassifier
+from sklearn.metrics import classification_report
 import joblib
 dir = "model/classification"
 # Create models directory if it doesn't exist
