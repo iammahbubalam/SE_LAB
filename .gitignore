@@ -1,0 +1,47 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+
+# Project specific
+*.log
+model/regression/quantity_predictor_model.pkl
+model/regression/quantity_label_encoders.pkl
+model/regression/quantity_scaler.pkl
+model/regression/quantity_model_info.pkl
+
+model/classification/food_classifier_model.pkl
+model/classification/label_encoders.pkl
+model/classification/scaler.pkl
+model/classification/model_info.pkl
